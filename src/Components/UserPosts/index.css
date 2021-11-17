@@ -1,0 +1,22 @@
+.each__user {
+  background-color: skyblue;
+  border-radius: 4px;
+  text-align: center;
+  padding: 4px 12px 4px 12px;
+  margin-bottom: 6px;
+}
+
+.bg {
+  background-color: palevioletred !important;
+}
+.each__user:hover {
+  background-color: aqua;
+}
+.link {
+  text-decoration: none;
+}
+.link > h1 {
+  color: rgb(77, 42, 42);
+  font-size: 16px;
+  font-family: 'bree serif';
+}

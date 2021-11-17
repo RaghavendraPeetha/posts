@@ -1,0 +1,127 @@
+.comments__container {
+  height: 40vh;
+  width: 100%;
+  overflow: auto;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFCyDxJLQnD5eIvrEzFFiVkDOWmrWHBC6prw&usqp=CAU');
+  padding: 10px 30px 20px 30px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.dark__comments__cnr {
+  background-image: none !important;
+  background-color: #421313;
+}
+.dark__comment {
+  color: #ffffff !important;
+}
+.comments__bottom {
+  display: flex;
+  align-items: center;
+}
+.comments__bottom > button {
+  margin-left: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgba(53, 185, 41, 0.808);
+  padding: 4px 10px 4px 10px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.comments__bottom > button:hover {
+  background-color: #9df03fab;
+  color: rgba(0, 0, 0, 0.623);
+}
+.comments__bottom > div {
+  display: flex;
+  align-items: center;
+}
+.comments__bottom > div > div {
+  height: 26px;
+  width: 26px;
+  border-radius: 13px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7px;
+}
+.comments__bottom > div > div > p {
+  font-size: 13px;
+  font-weight: bold;
+}
+.comments__bottom > div > p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(149, 247, 93);
+}
+.user__body {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(247, 247, 236);
+}
+.user__title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #9df03f;
+}
+.list__user__post {
+  list-style-type: none;
+}
+.name {
+  font-size: 16px;
+  color: rgb(129, 146, 218);
+}
+.name__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  height: 3px;
+}
+.body {
+  color: #421313;
+  font-size: 13px;
+  font-weight: 400;
+}
+.email {
+  display: flex;
+  align-items: center;
+}
+.firstname {
+  display: flex;
+  align-items: center;
+}
+.email__container {
+  background-color: rgb(210, 235, 100);
+  padding: 2px 6px 0px 6px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+.mail__logo {
+  color: rgb(226, 143, 48);
+  font-size: 20px;
+}
+.email > p {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(216, 104, 104);
+  margin-left: 10px;
+}
+.name__badge {
+  background-color: yellowgreen;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.name__badge > h1 {
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 4px;
+}

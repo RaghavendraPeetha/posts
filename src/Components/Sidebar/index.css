@@ -1,0 +1,33 @@
+.sidebar {
+  list-style-type: none;
+  padding: 0px 4px 0px 4px;
+}
+.users__dark__hd {
+  color: rgb(116, 245, 10);
+}
+.side__users {
+  font-size: 25px;
+  font-family: fantasy;
+
+  font-weight: bold;
+  text-align: center;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 91vh;
+}
+.color {
+  color: rgb(55, 240, 9);
+}
+.sidebar__container {
+  height: 91vh;
+  width: 16%;
+  overflow: auto;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYGrordsC6FvJVPsDoJ-lLLh1Kf8bEoSkSRg&usqp=CAU');
+}
+
+.sidebar__container::-webkit-scrollbar {
+  display: none;
+}

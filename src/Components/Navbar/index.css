@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  background-color: rgb(236, 190, 63);
+  padding: 5px 20px 5px 20px;
+}
+.app__name {
+  color: #ffffffce !important;
+}
+.app__name:hover {
+  color: #ecb8b8 !important;
+}
+.light {
+  color: #ffffff;
+  font-size: 25px;
+}
+.dark {
+  font-size: 30px;
+}
+.dark__nav {
+  background-color: rgb(32, 4, 4);
+}
+.link__home {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.link__home > h1 {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 6px;
+  color: rgb(9, 71, 73);
+}
+.link__home > h1:hover {
+  color: rgba(137, 43, 226, 0.651);
+}
+.home__logo {
+  font-size: 20px;
+  color: rgb(235, 49, 49);
+}
+.home__logo:hover {
+  color: rgba(165, 42, 42, 0.753);
+}

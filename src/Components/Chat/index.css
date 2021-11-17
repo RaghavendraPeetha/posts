@@ -1,0 +1,73 @@
+.app__container {
+  display: flex;
+
+  flex-direction: column;
+}
+.app__body {
+  display: flex;
+  width: 84%;
+  overflow: auto;
+  background-image: url('https://unitepaper.com/wp-content/uploads/2020/02/whatsapp-wallpaper-112-768x1365-1.jpg');
+  background-size: cover;
+}
+.pg__dark {
+  color: #ffffff;
+}
+.navbar__container {
+  height: 9vh;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFCyDxJLQnD5eIvrEzFFiVkDOWmrWHBC6prw&usqp=CAU');
+  background-size: cover;
+  width: 100%;
+}
+.users__link {
+  text-decoration: none;
+  text-align: center;
+}
+.users__cnr {
+  background: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 90%;
+  border-radius: 4px;
+  border: 2px solid green;
+}
+.users__cnr:hover {
+  background-color: rgba(158, 236, 171, 0.349);
+}
+.users {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: #ffffff;
+}
+.home__container > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(231, 68, 68);
+}
+.home__container > p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.bottom__container {
+  display: flex;
+  height: 91vh;
+  overflow: auto;
+  width: 100%;
+}
+
+.app__body::-webkit-scrollbar {
+  display: none;
+}

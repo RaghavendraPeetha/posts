@@ -1,0 +1,25 @@
+.posts__container {
+  width: 97%;
+}
+.posts__heading {
+  font-size: 30px;
+  font-family: fantasy;
+  font-weight: 500;
+  margin-left: 40px;
+  color: rgb(6, 193, 240);
+}
+.suggestion {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
+  color: rgb(233, 163, 163);
+}
+.sidebar__dark {
+  background-image: none !important;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+.dark__body {
+  background-image: none !important;
+  background-color: rgba(0, 0, 0, 0.787);
+}
